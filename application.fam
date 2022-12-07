@@ -1,0 +1,16 @@
+# qv. https://github.com/flipperdevices/flipperzero-firmware/blob/dev/documentation/AppManifests.md
+
+App(
+    appid="is_it_christmas",
+    name="Is it Christmas",
+    apptype=FlipperAppType.EXTERNAL,
+    cdefines=["APP_IS_IT_CHRISTMAS"],
+    entry_point="christmas_app_main",
+    requires=[
+        "gui",
+    ],
+    stack_size=2 * 1024,
+    order=70,
+    fap_icon="ct.png",
+    fap_category="Tools",
+)
