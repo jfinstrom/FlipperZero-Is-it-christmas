@@ -2,10 +2,10 @@
 
 App(
     appid="is_it_christmas",
-    name="Is it Christmas",
+    name="Is it Christmas?",
     apptype=FlipperAppType.EXTERNAL,
     cdefines=["APP_IS_IT_CHRISTMAS"],
-    entry_point="christmas_app_main",
+    entry_point="is_it_christmas_app",
     requires=[
         "gui",
     ],

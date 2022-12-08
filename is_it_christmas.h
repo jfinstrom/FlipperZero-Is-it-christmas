@@ -1,12 +1,6 @@
 #ifndef IS_IT_CHRISTMAS_H
 #define IS_IT_CHRISTMAS_H
 
-#include <furi.h>
-#include <gui/gui.h>
-#include <input/input.h>
-#include <stdlib.h>
-#include <gui/elements.h>
-
 typedef enum {
     EventTypeTick,
     EventTypeKey,
@@ -18,7 +12,7 @@ typedef struct {
 } PluginEvent;
 
 typedef struct {
-    bool is_on;
+    bool is_it_christmas;
 } PluginState;
 
-#endif
+#endif // IS_IT_CHRISTMAS_H
